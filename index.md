@@ -3,6 +3,17 @@ layout: default
 title: Home
 ---
 ***
+# Contents
+1. [Contents](#contents)
+2. [Links](#links)
+3. [Projects](#projects)
+4. [My Setup](#my-setup)
+5. [Note Taking](#note-taking)
+6. [Some Things I Like](#some-things-i-like)
+7. [Other Links](#other-links)
+8. [My Mixed Opinion of LISP](#my-mixed-opinion-of-lisp)
+
+***
 
 # Links
 
@@ -93,7 +104,7 @@ title: Home
 
 
 ***
-## My setup
+# My setup
 - OS: [Ubuntu](https://ubuntu.com/)
 - Window manager: [i3](https://i3wm.org/) and [i3bar](https://i3wm.org/i3bar/)
 - Editor: [emacs](https://www.gnu.org/software/emacs/) with [SLIME](https://common-lisp.net/project/slime/), [paredit](https://www.emacswiki.org/emacs/ParEdit), [autocomplete](https://github.com/auto-complete/auto-complete), and [ac-slime](https://github.com/purcell/ac-slime).
