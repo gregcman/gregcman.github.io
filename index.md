@@ -36,10 +36,10 @@ title: Home
 - notes
   - I took a lot of notes over the years but they were scattered everywhere, across google docs, google keep, samsung notes, evernote, apple notes, custom locations, and emails, so it became extremely difficult to reflect and review progress. This system consolidates all of it into a single file sorted by time.  
     - Makes extensive usage of [timestamps](https://common-lisp.net/project/local-time/manual.html) as well as [XML and HTML parsers](https://github.com/Shinmera/plump).
-    - I fed the output file into [GPT-2](https://github.com/openai/gpt-2) which created an eerie caricature likeness of me. GPT-2 Also seems to have come up with some legitimate original ideas by remixing my own words, although most of it was less coherent. 
+    - I fed the output file into [GPT-2](https://github.com/openai/gpt-2) which created an eerie caricature likeness of me. GPT-2 Also seems to have come up with some legitimate original ideas by remixing my own words, although most of it was less coherent.
+    
 - [cl-c-parse](https://github.com/gregcman/cl-c-parse)
-  -
-  Prototype of a c parser in common lisp, that is generated from lex and yacc specifications. It is  correct, but very slow.
+  - Prototype of a c parser in common lisp, that is generated from lex and yacc specifications. It is  correct, but very slow.
   - <iframe src="https://ghbtns.com/github-btn.html?user=gregcman&repo=cl-c-parse&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 - [sucle-multiprocessing](https://github.com/gregcman/sucle/tree/master/src/sucle-multiprocessing)
   - A job system.
