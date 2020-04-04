@@ -39,7 +39,7 @@ title: Home
     - I fed the output file into [GPT-2](https://github.com/openai/gpt-2) which created an eerie caricature likeness of me. GPT-2 Also seems to have come up with some legitimate original ideas by remixing my own words, although most of it was less coherent.
     
 - [cl-c-parse](https://github.com/gregcman/cl-c-parse)
-  - Prototype of a c parser in common lisp, that is generated from lex and yacc specifications. It is  correct, but very slow.
+  - Prototype of a C parser in Common Lisp, that is generated from lex and yacc specifications. It is  correct, but very slow.
   - <iframe src="https://ghbtns.com/github-btn.html?user=gregcman&repo=cl-c-parse&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 - [sucle-multiprocessing](https://github.com/gregcman/sucle/tree/master/src/sucle-multiprocessing)
   - A job system.
@@ -78,29 +78,19 @@ title: Home
   - Add system to deal with .mca files and make the algorithm simpler and more general.
 - [freecodecamp](https://github.com/gregcman/freecodecamp)
   - Solutions for the freeCodeCamp course.
-  - Did the main tutorials, but skipped the larger projects. So each individual CSS, HTML, Node, Javascript, React, Sass, Jquery, Redux, but didn't combine the pieces into a larger project.
+  - Did the main tutorials, but skipped the larger projects. So each individual CSS, HTML, Node, Javascript, React, Sass, Jquery, and Redux exercise, but didn't combine the pieces into a larger project.
 - [gregcman.github.io](https://github.com/gregcman/gregcman.github.io)
-  - Markdown sprinkled with HTML, especially for the github star-count buttons.
+  - Markdown sprinkled with HTML.
   - Uses [Jekyll](https://jekyllrb.com/).
 - [lisp-in-small-pieces](https://github.com/gregcman/lisp-in-small-pieces) [Fork]
   - A [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)) compiler and bytecode interpreter from the book [Lisp In Small Pieces](https://wiki.c2.com/?LispInSmallPieces).
 - [ridikulisp](https://github.com/gregcman/ridikulisp)
-  - A very tiny turing complete language which is easy to extend and implement, it is not a turing tarpit. Inspired by LISP and [bitbitjump](https://esolangs.org/wiki/BitBitJump).
+  - A very tiny turing complete language which is easy to extend and implement.
+    - Not a [turing tarpit](https://en.wikipedia.org/wiki/Turing_tarpit).
+    - Inspired by LISP and [bitbitjump](https://esolangs.org/wiki/BitBitJump).
 - [llvm-for-cl](https://github.com/gregcman/llvm-for-cl)
   - Basic compiler from s-expressions to assembly using LLVM.
 
-***
-## My mixed opinion of LISP
-
-LISP is not economically or socially viable because it is the most rapid prototyping language available.<br>
-It is indispensable if you:
-1. Enjoy programming itself
-2. Have a unique problem at hand with limited computing power.
-
-LISP is the essence of unbridled individualism.
-I, being an american, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.
-
-It also pains me to say that Individualism is overrated. Individualism does not scale. The bigger your operation, the more it converges on the hard sciences and leaves little room for hand-wavy self expression.
 
 ***
 ## My setup
@@ -149,6 +139,18 @@ Example:
     - LibreOffice
 - Desktop 4: other
   - ...
+  
+***
+## Some things I like:
+- [Hacker News](https://news.ycombinator.com/)
+- [LessWrong](https://www.lesswrong.com/)
+- [Wikipedia](https://www.wikipedia.org/)
+- [xkcd](https://xkcd.com/)
+- [Existenial Comics](http://existentialcomics.com/)
+- [smbc](https://www.smbc-comics.com/)
+- [FunnyJunk](https://funnyjunk.com/)
+- [ethoslab](https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA)
+- [TwoMinutePapers](https://www.youtube.com/user/keeroyz)
 
 ***
 
@@ -162,3 +164,16 @@ Example:
 - [Stackoverflow](https://stackoverflow.com/users/11832878/greg-c-man)
 - [Reddit](https://www.reddit.com/user/gregcman)
 - [Linkedin](https://www.linkedin.com/in/gregorio-manabat/)
+
+***
+## My mixed opinion of LISP
+
+LISP is not economically or socially viable because it is the most rapid prototyping language available.<br>
+It is indispensable if you:
+1. Enjoy programming itself
+2. Have a unique problem at hand with limited computing power.
+
+LISP is the essence of unbridled individualism.
+I, being an american, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.
+
+It also pains me to say that Individualism is overrated. Individualism does not scale. The bigger your operation, the more it converges on the hard sciences and leaves little room for hand-wavy self expression.
