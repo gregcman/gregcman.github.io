@@ -30,6 +30,6 @@
 # baseurl: /christmas-recipes
 
 url:                 https://gregcman.github.io/
-baseurl:             "/foo/"
+baseurl:             ""
 permalink:           pretty
 # permalink: /blog/:year/:month/:day/:title
