@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2020-03-25T17:35:20-04:00</updated>
+	<updated>2020-04-03T20:35:54-04:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -14,7 +14,7 @@
 	
 		<entry>
 			<title>Welcome to Jekyll!</title>
-			<link href="http://hankquinlan.github.io/jekyll/update/2020/03/25/welcome-to-jekyll.html"/>
+			<link href="http://hankquinlan.github.io/jekyll/update/2020/03/25/welcome-to-jekyll/"/>
 			<updated>2020-03-25T15:44:49-04:00</updated>
 			<id>http://hankquinlan.github.io/jekyll/update/2020/03/25/welcome-to-jekyll</id>
 			<content type="html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
@@ -36,7 +36,7 @@
 	
 		<entry>
 			<title>Hank Quinlan, Horrible Cop, Launches Site</title>
-			<link href="http://hankquinlan.github.io/2014/04/30/hank-quinlan-site-launched.html"/>
+			<link href="http://hankquinlan.github.io/2014/04/30/hank-quinlan-site-launched/"/>
 			<updated>2014-04-30T00:00:00-04:00</updated>
 			<id>http://hankquinlan.github.io/2014/04/30/hank-quinlan-site-launched</id>
 			<content type="html">&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
