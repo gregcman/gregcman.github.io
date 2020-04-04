@@ -181,7 +181,7 @@ Using Google Keep:
 - [LessWrong](https://www.lesswrong.com/)
 - [Wikipedia](https://www.wikipedia.org/)
 - [xkcd](https://xkcd.com/)
-- [Existenial Comics](http://existentialcomics.com/)
+- [Existential Comics](http://existentialcomics.com/)
 - [SMBC](https://www.smbc-comics.com/)
 - [FunnyJunk](https://funnyjunk.com/)
 - [ethoslab](https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA)
