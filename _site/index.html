@@ -2,15 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Home</title>
+        <title>gregcman's Homepage</title>
         <link rel="stylesheet" href="/css/main.css" >
     </head>
     <body>
 
 
-    <h1>Home</h1>
+    <h1>gregcman's Homepage</h1>
 
     <hr />
+<p><a href="/">
+<img src="images/800px-Surreal_number_tree.svg2.png" alt="Profile Picture" style="float:right; border-radius:10px; margin:20px; height:240px;" />
+</a></p>
 <h1 id="contents">Contents</h1>
 <ol>
   <li><a href="#contents">Contents</a></li>
@@ -28,8 +31,10 @@
 <h1 id="links">Links</h1>
 
 <ul>
-  <li><a href="https://github.com/gregcman">Github</a></li>
-  <li><a href="https://www.youtube.com/channel/UCqmBXq8zxsmU5YSQWGRUHgA">Youtube</a></li>
+  <li><a href="mailto:gregoriomanabat@gmail.com">Email</a></li>
+  <li><a href="https://github.com/gregcman">GitHub</a></li>
+  <li><a href="https://www.youtube.com/channel/UCqmBXq8zxsmU5YSQWGRUHgA">YouTube</a></li>
+  <li><a href="https://www.linkedin.com/in/gregorio-manabat/">LinkedIn</a></li>
 </ul>
 
 <hr />
@@ -87,7 +92,7 @@
   </li>
   <li>notes
     <ul>
-      <li>I took a lot of notes over the years but they were scattered everywhere, across google docs, google keep, samsung notes, evernote, apple notes, custom locations, and emails, so it became extremely difficult to reflect and review progress. This system consolidates all of it into a single file sorted by time.
+      <li>I took a lot of notes over the years but they were scattered everywhere, across google docs, google keep, Samsung notes, evernote, apple notes, custom locations, and emails, so it became extremely difficult to reflect and review progress. This system consolidates all of it into a single file sorted by time.
         <ul>
           <li>Makes extensive usage of <a href="https://common-lisp.net/project/local-time/manual.html">timestamps</a> as well as <a href="https://github.com/Shinmera/plump">XML and HTML parsers</a>.</li>
           <li>I fed the output file into <a href="https://github.com/openai/gpt-2">GPT-2</a> which created an eerie caricature likeness of me. GPT-2 Also seems to have come up with some legitimate original ideas by remixing my own words, although most of it was less coherent.</li>
@@ -97,7 +102,7 @@
   </li>
   <li><a href="https://github.com/gregcman/cl-c-parse">cl-c-parse</a>
     <ul>
-      <li>Prototype of a C parser in Common Lisp, that is generated from lex and yacc specifications. It is  correct, but very slow.</li>
+      <li>Prototype of a C parser in Common Lisp, that is generated from Lex and Yacc specifications. It is correct, but very slow.</li>
       <li>
         <iframe src="https://ghbtns.com/github-btn.html?user=gregcman&amp;repo=cl-c-parse&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
       </li>
@@ -125,10 +130,10 @@
   </li>
   <li><a href="https://github.com/gregcman/sucle/tree/master/src/text-subsystem">text-subsystem</a>
     <ul>
-      <li>GPU accelated grid-of-characters user interface.
+      <li>GPU accelerated grid-of-characters user interface.
         <ul>
-          <li>Similar to <a href="https://github.com/alacritty/alacritty">alacritty</a>, the gpu terminal emulator.</li>
-          <li>Very dense data transfer to the gpu, each character is just 4 bytes.
+          <li>Similar to <a href="https://github.com/alacritty/alacritty">alacritty</a>, the GPU terminal emulator.</li>
+          <li>Very dense data transfer to the GPU, each character is just 4 bytes.
             <ul>
               <li>Compared to the naive polygon with texture and color attributes, which is 4 vertices with 2 texture coordinates each and 2 colors each.</li>
               <li>128 bytes = 4*((sizeof(float) * 2) + (sizeof(float) * 3 * 2)). 128/4= 32 times less data transfer.</li>
@@ -165,7 +170,7 @@
   </li>
   <li><a href="https://github.com/gregcman/cl-cfs-scheduler">cl-cfs-scheduler</a>
     <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Completely_Fair_Scheduler">Completely fair scheduling</a>, an algorithm used in the linux kernel to schedule processes by priority.</li>
+      <li><a href="https://en.wikipedia.org/wiki/Completely_Fair_Scheduler">Completely fair scheduling</a>, an algorithm used in the Linux kernel to schedule processes by priority.</li>
     </ul>
   </li>
   <li><a href="https://github.com/gregcman/sucle/blob/wfc/src/sucle/wfc.lisp">wfc</a>
@@ -192,7 +197,7 @@
   <li><a href="https://github.com/gregcman/freecodecamp">freecodecamp</a>
     <ul>
       <li>Solutions for the freeCodeCamp course.</li>
-      <li>Did the main tutorials, but skipped the larger projects. So each individual CSS, HTML, Node, Javascript, React, Sass, Jquery, and Redux exercise, but didn’t combine the pieces into a larger project.</li>
+      <li>Did the main tutorials, but skipped the larger projects. So each individual CSS, HTML, Node, JavaScript, React, Sass, Jquery, and Redux exercise, but didn’t combine the pieces into a larger project.</li>
     </ul>
   </li>
   <li><a href="https://github.com/gregcman/gregcman.github.io">gregcman.github.io</a>
@@ -208,9 +213,9 @@
   </li>
   <li><a href="https://github.com/gregcman/ridikulisp">ridikulisp</a>
     <ul>
-      <li>A very tiny turing complete language which is easy to extend and implement.
+      <li>A very tiny Turing complete language which is easy to extend and implement.
         <ul>
-          <li>Not a <a href="https://en.wikipedia.org/wiki/Turing_tarpit">turing tarpit</a>.</li>
+          <li>Not a <a href="https://en.wikipedia.org/wiki/Turing_tarpit">Turing tarpit</a>.</li>
           <li>Inspired by LISP and <a href="https://esolangs.org/wiki/BitBitJump">bitbitjump</a>.</li>
         </ul>
       </li>
@@ -228,13 +233,13 @@
 <ul>
   <li>OS: <a href="https://ubuntu.com/">Ubuntu</a></li>
   <li>Window manager: <a href="https://i3wm.org/">i3</a> and <a href="https://i3wm.org/i3bar/">i3bar</a></li>
-  <li>Editor: <a href="https://www.gnu.org/software/emacs/">emacs</a> with <a href="https://common-lisp.net/project/slime/">SLIME</a>, <a href="https://www.emacswiki.org/emacs/ParEdit">paredit</a>, <a href="https://github.com/auto-complete/auto-complete">autocomplete</a>, and <a href="https://github.com/purcell/ac-slime">ac-slime</a>.</li>
+  <li>Editor: <a href="https://www.gnu.org/software/emacs/">Emacs</a> with <a href="https://common-lisp.net/project/slime/">SLIME</a>, <a href="https://www.emacswiki.org/emacs/ParEdit">paredit</a>, <a href="https://github.com/auto-complete/auto-complete">autocomplete</a>, and <a href="https://github.com/purcell/ac-slime">ac-slime</a>.</li>
   <li>Any terminal</li>
   <li>Common Lisp: <a href="http://www.sbcl.org/">SBCL</a></li>
   <li>Version control: <a href="https://en.wikipedia.org/wiki/Git">git</a>, <a href="https://www.syntevo.com/smartgit/">smartgit</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Grep">grep</a>, <a href="https://en.wikipedia.org/wiki/Pkill">pkill</a>, <a href="https://hisham.hm/htop/">htop</a></li>
-  <li>Browser: <a href="https://www.mozilla.org/en-US/">firefox</a></li>
-  <li>File Manager: <a href="https://wiki.lxde.org/en/PCManFM">pcmanfm</a></li>
+  <li>Browser: <a href="https://www.mozilla.org/en-US/">Firefox</a></li>
+  <li>File Manager: <a href="https://wiki.lxde.org/en/PCManFM">pcmanfm</a> in dual-pane mode</li>
   <li>Quick Notes: copy paper on a clipboard, or <a href="https://keep.google.com">Google Keep</a></li>
 </ul>
 
@@ -379,6 +384,34 @@
   <li><a href="https://funnyjunk.com/">FunnyJunk</a></li>
   <li><a href="https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA">ethoslab</a></li>
   <li><a href="https://www.youtube.com/user/keeroyz">TwoMinutePapers</a></li>
+  <li><a href="https://arxiv.org/abs/0712.3329">Universal Intelligence: A Definition of Machine Intelligence</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Antifragile">Antifragile</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Infinity_and_the_Mind">Infinity and the Mind</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Pareto_efficiency">Pareto efficiency</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">Myers–Briggs Type Indicator (MBTI)</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">OCEAN model</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Surreal_number">Surreal number</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Simulation_hypothesis">Simulation hypothesis</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">List of cognitive biases</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Dunbar%27s_number">Dunbar’s number</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Brute-force_search">Brute-force search</a></li>
+  <li><a href="https://wiki.lesswrong.com/wiki/Rationality:_From_AI_to_Zombies">Rationality: From AI to Zombies</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Minimax">Minimax</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Single_point_of_failure">Single point of failure</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Project_management">Project management</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down">Turtles all the way down</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Fractal">Fractal</a></li>
+  <li><a href="https://www.lesswrong.com/posts/GJ4ZQm7crTzTM6xDW/focus-your-uncertainty">Focus Your Uncertainty</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter">Hunter x Hunter</a></li>
+  <li><a href="http://www.scp-wiki.net/">SCP Foundation</a></li>
+  <li><a href="https://tvtropes.org/">tv tropes</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Metastability">Metastability</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes’ theorem</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">generative adversarial network (GAN)</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Orthogonality_(programming)">Orthogonality</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Master%E2%80%93slave_morality">Master–slave morality</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Meta-circular_evaluator">Meta-circular evaluator</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Feedback">Feedback</a></li>
 </ul>
 
 <hr />
@@ -391,9 +424,8 @@
   <li><a href="https://www.instagram.com/gregcman3/">Instagram</a></li>
   <li><a href="https://gregcman.itch.io/">itch.io</a></li>
   <li><a href="https://www.quora.com/profile/Greg-C-Man">Quora</a></li>
-  <li><a href="https://stackoverflow.com/users/11832878/greg-c-man">Stackoverflow</a></li>
+  <li><a href="https://stackoverflow.com/users/11832878/greg-c-man">StackOverflow</a></li>
   <li><a href="https://www.reddit.com/user/gregcman">Reddit</a></li>
-  <li><a href="https://www.linkedin.com/in/gregorio-manabat/">Linkedin</a></li>
 </ul>
 
 <hr />
@@ -407,9 +439,21 @@ It is indispensable if you:</p>
 </ol>
 
 <p>LISP is the essence of unbridled individualism.
-I, being an american, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.</p>
+I, being an American, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.</p>
 
 <p>It also pains me to say that Individualism is overrated. Individualism does not scale. The bigger your operation, the more it converges on the hard sciences and leaves little room for hand-wavy self expression.</p>
+
+<p>The deepest subjects attract the crackpots and the intelligent.</p>
+
+<p>The crackpots are there because they are crazy.</p>
+
+<p>The intelligent are there because they understand.</p>
+
+<p>Some sad examples:</p>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Mind_uploading">Mind uploading</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">LISP</a></li>
+</ul>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
