@@ -255,15 +255,3 @@ It is indispensable if you:
 
 LISP is the essence of unbridled individualism.
 I, being an American, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.
-
-It also pains me to say that Individualism is overrated. Individualism does not scale. The bigger your operation, the more it converges on the hard sciences and leaves little room for hand-wavy self expression.
-
-The deepest subjects attract the crackpots and the intelligent.
-
-The crackpots are there because they are crazy.
-
-The intelligent are there because they understand.
-
-Some sad examples:
-- [Mind uploading](https://en.wikipedia.org/wiki/Mind_uploading)
-- [LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))
