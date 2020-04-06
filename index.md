@@ -49,7 +49,7 @@ title: gregcman's Homepage
   - A tiered cache system for voxels.
     - Levels:
       1. 3D array that can pin memory.
-      2. A [MRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Most_recently_used_(MRU)) (most recently used) cache.
+      2. An LRU cache.
       3. The disk, or database.
 - notes
   - I took a lot of notes over the years but they were scattered everywhere, across google docs, google keep, Samsung notes, evernote, apple notes, custom locations, and emails, so it became extremely difficult to reflect and review progress. This system consolidates all of it into a single file sorted by time.  
