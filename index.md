@@ -16,7 +16,7 @@ title: gregcman's Homepage
 5. [Note Taking](#note-taking)
 6. [Some Things I Like](#some-things-i-like)
 7. [Other Links](#other-links)
-8. [My Mixed Opinion of LISP](#my-mixed-opinion-of-lisp)
+8. [LISP](#lisp)
 
 ***
 
@@ -246,12 +246,6 @@ Using Google Keep:
 - [Reddit](https://www.reddit.com/user/gregcman)
 
 ***
-## My mixed opinion of LISP
+## LISP
 
-LISP is not economically or socially viable because it is the most rapid prototyping language available.<br>
-It is indispensable if you:
-1. Enjoy programming itself
-2. Have a unique problem at hand with limited computing power.
-
-LISP is the essence of unbridled individualism.
-I, being an American, was raised on rugged individualism. Thus, LISP appeals to me and it saddens me that this cherished art is dying.
+Common LISP allows an individual programmer to prototype faster than any other programming language. It is the language of choice if you an an individual programmer. 
